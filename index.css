@@ -1,0 +1,258 @@
+html, body {
+  height: 100%; }
+
+.container {
+  max-width: 810px;
+  margin-bottom: 51px; }
+
+* {
+  font-family: 'Open Sans', Arial, Tahoma; }
+
+h1, h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #428bca;
+  margin-bottom: 15px; }
+
+p {
+  text-align: justify; }
+
+strong {
+  font-size: 1.1em; }
+
+section {
+  margin-bottom: 25px; }
+
+ul {
+  padding-left: 0; }
+
+li {
+  list-style: none;
+  margin-bottom: 30px; }
+
+@media (max-width: 767px) {
+  li {
+    margin-bottom: 10px; }
+
+  h4 {
+    margin-bottom: 5px; }
+
+  .skills > h4, .education > h4 {
+    margin-left: -15px; } }
+.about p {
+  padding-left: 10px; }
+
+.projects ul {
+  padding-left: 10px; }
+.projects .description {
+  margin-left: 5px; }
+  .projects .description li {
+    list-style-type: circle; }
+.projects .links {
+  margin: 2px 0; }
+.projects a {
+  color: #428bca; }
+
+.professional ul {
+  padding-left: 10px; }
+.professional strong {
+  display: inline; }
+.professional .position {
+  margin-top: 2px;
+  padding-left: 5px; }
+  .professional .position strong {
+    color: #428bca;
+    font-size: 1em; }
+.professional .pull-right {
+  color: rgba(0, 0, 0, 0.5); }
+.professional .description {
+  margin-left: 5px;
+  margin-top: 10px; }
+
+.contact {
+  margin-bottom: 15px; }
+  .contact h4 {
+    margin-bottom: 5px; }
+  .contact li {
+    height: 36px;
+    margin-bottom: 0; }
+    .contact li:last-child .icon-container {
+      border-bottom: none; }
+    .contact li .icon-container {
+      height: 100%;
+      max-width: 40px;
+      border-right: 1px solid rgba(0, 0, 0, 0.2);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      text-align: center;
+      padding: 0; }
+      .contact li .icon-container a {
+        line-height: 36px; }
+        .contact li .icon-container a:hover {
+          color: #428bca; }
+        .contact li .icon-container a i {
+          font-size: 1.15em;
+          opacity: 0.8;
+          transition: all .2s ease-in-out; }
+          .contact li .icon-container a i:hover {
+            transform: scale(1.75); }
+    .contact li .two-line {
+      height: 100%;
+      line-height: 100%;
+      padding-top: 5px; }
+    .contact li strong {
+      font-size: 1em;
+      display: block;
+      line-height: 0.8em; }
+    .contact li small {
+      line-height: 0.8em;
+      color: rgba(0, 0, 0, 0.5); }
+    .contact li span {
+      color: rgba(0, 0, 0, 0.75);
+      font-weight: bold;
+      line-height: 36px; }
+
+.skills {
+  margin-bottom: 12px; }
+  @media (max-width: 767px) {
+    .skills {
+      padding-right: 0; } }
+  .skills .skill {
+    height: 24px;
+    line-height: 24px;
+    background: #428bca;
+    color: white;
+    margin: 4px 0;
+    padding: 0 10px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 0.9em; }
+  .skills .legend {
+    height: 40px;
+    border: none;
+    margin: 10px 0 0 0; }
+    .skills .legend .scale {
+      height: 15px;
+      position: relative;
+      border-left: 2px solid lightgrey;
+      border-right: 2px solid lightgrey;
+      border-bottom: 2px solid lightgrey; }
+      .skills .legend .scale:after {
+        content: '';
+        height: 15px;
+        width: 45%;
+        position: absolute;
+        left: 27.5%;
+        border-left: 2px solid lightgrey;
+        border-right: 2px solid lightgrey; }
+    .skills .legend span {
+      color: rgba(0, 0, 0, 0.5);
+      margin-top: 4px;
+      font-size: 0.8em; }
+      @media (max-width: 400px) {
+        .skills .legend span {
+          font-size: 0.7em; } }
+
+.education {
+  height: 100%;
+  min-height: 100%;
+  max-height: 100%; }
+  @media (max-width: 767px) {
+    .education {
+      padding-left: 0; }
+      .education h4 {
+        margin-left: 0; } }
+  .education h4 {
+    margin-bottom: 10px; }
+  .education ul {
+    position: relative; }
+    .education ul:after {
+      content: '';
+      height: 100%;
+      width: 3px;
+      position: absolute;
+      top: 0;
+      left: 12.5%;
+      background: #428bca;
+      background: -webkit-linear-gradient(transparent, #428bca 5%, #428bca 95%, transparent);
+      background: -o-linear-gradient(transparent, #428bca 5%, #428bca 95%, transparent);
+      /* Opera 11.1 to 12.0 */
+      background: -moz-linear-gradient(transparent, #428bca 5%, #428bca 95%, transparent);
+      /* Firefox 3.6 to 15 */
+      background: linear-gradient(transparent, #428bca 5%, #428bca 95%, transparent);
+      /* Standard syntax */
+      z-index: -1; }
+      @media (max-width: 460px) {
+        .education ul:after {
+          display: none; } }
+  .education li {
+    overflow: auto;
+    margin-bottom: 10px; }
+  .education .year {
+    height: 100%;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    background: white;
+    background: -webkit-linear-gradient(transparent, white 30%, white 70%, transparent);
+    background: -o-linear-gradient(transparent, white 30%, white 70%, transparent);
+    /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(transparent, white 30%, white 70%, transparent);
+    /* Firefox 3.6 to 15 */
+    background: linear-gradient(transparent, white 30%, white 70%, transparent);
+    /* Standard syntax */ }
+    @media (max-width: 460px) {
+      .education .year {
+        display: none; } }
+  .education .description {
+    background: rgba(0, 0, 0, 0.075);
+    -mox-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px 15px; }
+    @media (max-width: 460px) {
+      .education .description {
+        width: 100%;
+        padding: 10px 10px; } }
+    .education .description:after {
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: -16px;
+      width: 0;
+      border: solid transparent;
+      border-right-color: rgba(0, 0, 0, 0.075);
+      border-width: 8px; }
+    .education .description strong {
+      text-overflow: ellipsis;
+      overflow: hidden; }
+      @media (max-width: 992px) {
+        .education .description strong {
+          font-size: 1em; } }
+    .education .description p {
+      text-align: initial;
+      margin: 5px 0 0 0; }
+
+footer {
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  background: white;
+  margin-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2); }
+  footer .item {
+    height: 100%;
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+    -mox-box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.02);
+    -webkit-box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.02);
+    box-shadow: inset 0 0 5px 1px rgba(0, 0, 0, 0.02); }
+    footer .item:first-of-type {
+      border-left: none; }
+    footer .item a {
+      line-height: 40px;
+      font-size: 1.4em; }
+
+/*# sourceMappingURL=index.css.map */
