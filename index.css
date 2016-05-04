@@ -3,7 +3,7 @@ html, body {
 
 .container {
   max-width: 810px;
-  margin-bottom: 51px; }
+  padding-bottom: 50px; }
 
 * {
   font-family: 'Open Sans', Arial, Tahoma; }
