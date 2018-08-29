@@ -1,0 +1,1 @@
+Run `npm start` to start compiling sass to css.

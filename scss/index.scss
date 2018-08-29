@@ -18,8 +18,8 @@ h1, h4 {
   text-transform: uppercase;
   font-weight: bold;
   color: $blue;
-  margin-bottom: 15px;
 }
+h4 { margin: 20px 0; }
 p { text-align: justify; }
 strong { font-size: 1.1em; }
 section { margin-bottom: 25px; }
@@ -40,7 +40,6 @@ li {
 .about {
   p { padding-left: 10px; }
 }
-
 
 .projects {
   ul { padding-left: 10px; }
@@ -70,7 +69,6 @@ li {
     margin-top: 10px;
   }
 }
-
 
 .contact {
   margin-bottom: 15px;
@@ -118,7 +116,6 @@ li {
     }
   }
 }
-
 
 .skills {
   @media (max-width: 767px) { padding-right: 0; }
@@ -187,10 +184,6 @@ li {
       top: 0;
       left: 12.5%;
       background: $blue;
-      background: -webkit-linear-gradient(transparent, $blue 5%, $blue 95%, transparent);
-      background: -o-linear-gradient(transparent, $blue 5%, $blue 95%, transparent); /* Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(transparent, $blue 5%, $blue 95%, transparent); /* Firefox 3.6 to 15 */
-      background: linear-gradient(transparent, $blue 5%, $blue 95%, transparent); /* Standard syntax */
       z-index: -1;
     }
   }
@@ -205,10 +198,6 @@ li {
     text-align: center;
     padding: 10px 0;
     background: white;
-    background: -webkit-linear-gradient(transparent, white 30%, white 70%, transparent);
-    background: -o-linear-gradient(transparent, white 30%, white 70%, transparent); /* Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(transparent, white 30%, white 70%, transparent); /* Firefox 3.6 to 15 */
-    background: linear-gradient(transparent, white 30%, white 70%, transparent); /* Standard syntax */
   }
   .description {
     @media (max-width: 460px) {
