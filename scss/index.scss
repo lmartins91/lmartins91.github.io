@@ -26,7 +26,7 @@ section { margin-bottom: 25px; }
 ul { padding-left: 0; }
 li {
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
@@ -135,7 +135,7 @@ li {
     line-height: 24px;
     background: $blue;
     color: white;
-    margin: 4px 0;
+    margin: 6px 0;
     padding: 0 10px;
     white-space: nowrap;
     text-overflow: ellipsis;
@@ -199,7 +199,7 @@ li {
   }
   li {
     overflow: auto;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
   .year {
     @media (max-width: 460px) { display: none; }
